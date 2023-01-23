@@ -1,0 +1,44 @@
+body{
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+h1{
+  text-align: center;
+  margin: 20px;
+  padding: 5px;
+  font-size: 60px;
+  font-family: fantasy;
+}
+
+h2{
+  text-align: center;
+  margin: 30px;
+  padding: 5px;
+  font-size: 40px;
+}
+
+img{
+  width: 300px;
+  border-radius: 50%;
+}
+
+h6{
+  margin: 5px;
+  font-size: 20px;
+  color: rgb(19,19,19);
+}
+
+.director{
+  text-align: center;
+}
+
+.writers, .cast{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+span {
+  color: grey;
+}
