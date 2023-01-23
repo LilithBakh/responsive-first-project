@@ -1,5 +1,6 @@
 body{
-  margin-top: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-bottom: 50px;
 }
 
@@ -7,7 +8,7 @@ h1{
   text-align: center;
   margin: 20px;
   padding: 5px;
-  font-size: 60px;
+  font-size: 40px;
   font-family: fantasy;
 }
 
@@ -15,17 +16,34 @@ h2{
   text-align: center;
   margin: 30px;
   padding: 5px;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 img{
-  width: 300px;
+  width: 150px;
   border-radius: 50%;
+  margin-top: 20px;
+}
+
+.writer-one img{
+  margin-left: 100px;
+}
+
+.writer-one h6{
+  margin-left: 100px;
+}
+
+.writer-two img{
+  margin-right: 100px;
+}
+
+.writer-two h6{
+  margin-right: 100px;
 }
 
 h6{
   margin: 5px;
-  font-size: 20px;
+  font-size: 15px;
   color: rgb(19,19,19);
 }
 
@@ -41,4 +59,62 @@ h6{
 
 span {
   color: grey;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 400px) {
+  html {
+    margin: 0%;
+  }
+
+  body {
+    margin: 0%;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  img {
+    width: 250px;
+    margin-top: 0px;
+  }
+
+  h6 {
+    font-size: 25px;
+  }
+
+ .writers, .cast {
+  display: block;
+ }
+
+ section {
+  margin-bottom: 30px;
+ }
+
+ .writers-wrap {
+  background: rgb(207, 205, 200);
+ }
+
+ .writer-one img{
+  margin-left: 0px;
+}
+
+  .writer-one h6{
+    margin-left: 0px;
+  }
+
+  .writer-two img{
+    margin-right: 0px;
+  }
+
+  .writer-two h6{
+    margin-right: 0px;
+  }
 }
