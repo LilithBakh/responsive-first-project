@@ -1,120 +1,80 @@
-body{
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 50px;
+/*Responsive on mobile*/
+html {
+  margin: 0%;
 }
 
-h1{
+body {
   text-align: center;
-  margin: 20px;
-  padding: 5px;
-  font-size: 40px;
+  margin: 0%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
   font-family: fantasy;
+  font-size: 60px;
 }
 
-h2{
+h2 {
   text-align: center;
-  margin: 30px;
-  padding: 5px;
-  font-size: 25px;
+  font-size: 45px;
+  margin-bottom: 5px;
+  text-decoration: underline;
 }
 
-img{
-  width: 150px;
-  border-radius: 50%;
+img {
+  text-align: center;
+  width: 250px;
   margin-top: 20px;
+  border-radius: 50%;
 }
 
-.writer-one img{
-  margin-left: 100px;
-}
-
-.writer-one h6{
-  margin-left: 100px;
-}
-
-.writer-two img{
-  margin-right: 100px;
-}
-
-.writer-two h6{
-  margin-right: 100px;
-}
-
-h6{
-  margin: 5px;
-  font-size: 15px;
-  color: rgb(19,19,19);
-}
-
-.director{
+h6 {
+  margin-top: 20px;
+  margin-bottom: 10px;
   text-align: center;
-}
-
-.writers, .cast{
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
+  font-size: 30px;
 }
 
 span {
+  font-size: 20px;
   color: grey;
 }
 
-/*Responsive*/
+.writers, .cast {
+  display: block;
+}
 
-@media only screen and (max-width: 400px) {
-  html {
-    margin: 0%;
-  }
+section {
+  margin-bottom: 30px;
+}
 
-  body {
-    margin: 0%;
-    margin-bottom: 20px;
-  }
+.writers-wrap {
+  background: rgb(207, 205, 200);
+  padding: 20px;
+}
 
-  h1 {
-    font-size: 55px;
+/*Responsive on tablet*/
+@media only screen and (max-width: 1023px) and (min-width: 601px) {
+  img {
+    width: 200px;
   }
 
   h2 {
-    font-size: 40px;
-  }
-
-  img {
-    width: 250px;
-    margin-top: 0px;
+    font-size: 35px;
   }
 
   h6 {
     font-size: 25px;
   }
 
- .writers, .cast {
-  display: block;
- }
-
- section {
-  margin-bottom: 30px;
- }
-
- .writers-wrap {
-  background: rgb(207, 205, 200);
- }
-
- .writer-one img{
-  margin-left: 0px;
-}
-
-  .writer-one h6{
-    margin-left: 0px;
+  .writers {
+    display: flex;
+    justify-content: space-around;
   }
 
-  .writer-two img{
-    margin-right: 0px;
-  }
-
-  .writer-two h6{
-    margin-right: 0px;
+  .rowOne {
+    display: flex;
+    justify-content: space-around;
   }
 }
